@@ -6,6 +6,15 @@ body{
     display:flex;
     gap:8px;
 }
+.item{
+   height:32px; 
+   border:2px solid hsl(210deg 8% 50%); 
+}
+.item.strech{
+    width:300px;
+    flex-grow:1;
+    border-radius:16px;
+}
 form {
     display:flex;
     align-items:flex-end;
