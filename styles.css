@@ -1,8 +1,17 @@
+body{
+    background: hsl(210deg,30%,12%);
+    color:hsl(0deg 0% 100%);
+}
+.wrapper{
+    display:flex;
+    gap:8px;
+}
 form {
     display:flex;
     align-items:flex-end;
     flex-wrap:wrap;
     gap:16px;
+
 }
 .name{
     flex-grow:1;
@@ -18,3 +27,4 @@ button{
     flex-basis:80px;
     Background-color:red;
 }
+
